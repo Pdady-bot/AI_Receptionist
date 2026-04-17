@@ -30,18 +30,18 @@ hotel_receptionist/
 pip install -r requirements.txt
 ```
 
-### Step 2 — Set your Anthropic API key
+### Step 2 — Set your Groq API key
 ```bash
 # Mac/Linux:
-export ANTHROPIC_API_KEY=your_key_here
+export GROQ_API_KEY=your_key_here
 
 # Windows (Command Prompt):
-set ANTHROPIC_API_KEY=your_key_here
+set  GROQ_API_KEY=your_key_here
 
 # Windows (PowerShell):
-$env:ANTHROPIC_API_KEY="your_key_here"
+$env: GROQ_API_KEY="your_key_here"
 ```
-Get your free API key at: https://console.anthropic.com
+
 
 ### Step 3 — Run the app
 ```bash
@@ -75,5 +75,5 @@ To adapt for a real hotel:
 
 ## 🛠️ Tech Stack
 - **Streamlit** — web interface
-- **Anthropic Claude API** — AI responses
+- ** GROQ API** — AI responses
 - **Python** — backend logic
