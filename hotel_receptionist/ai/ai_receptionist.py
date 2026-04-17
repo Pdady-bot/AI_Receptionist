@@ -18,8 +18,6 @@ KEY CONCEPT — System Prompt:
 """
 
 from groq import Groq
-from dotenv import load_dotenv
-load_dotenv()
 import streamlit as st
 import json
 from data.hotel_data import (
